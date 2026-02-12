@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <main class="pagina">
@@ -76,22 +77,32 @@
     <section class="s5 secao-desafios">
       <div class="conteudo-desafios">
         <h2 class="titulo-secao titulo-desafios-secao">Doenças raras e seus desafios</h2>
-        <div class="grade-desafios">
-          <article class="item-desafio">
-            <img src="assets/Rectangle5.png" alt="Profissional de saúde conversando com paciente">
-            <h3>Numerosos exames, custos e consultas</h3>
-            <p>Leva, em média, aproximadamente 5 anos para obter o diagnóstico de uma doença rara, com múltiplas visitas a diferentes especialistas.<sup>5</sup></p>
-          </article>
-          <article class="item-desafio">
-            <img src="assets/Rectangle6.png" alt="Médico em consulta com paciente">
-            <h3>Atrasos no diagnóstico</h3>
-            <p>Cerca de 40% dos pacientes receberão mais de um diagnóstico incorreto antes de chegar ao correto.<sup>6</sup></p>
-          </article>
-          <article class="item-desafio">
-            <img src="assets/Rectangle7.png" alt="Profissional de saúde em ambiente clínico">
-            <h3>Doenças raras não diagnosticadas</h3>
-            <p>Mais de 50% das pessoas com suspeita de uma doença rara permanecem sem diagnóstico<sup>7,8</sup>, o que frequentemente aumenta a gravidade e o impacto da doença.</p>
-          </article>
+        <div class="viewport-desafios">
+          <div class="grade-desafios">
+            <article class="item-desafio">
+              <img src="assets/Rectangle5.png" alt="Profissional de saúde conversando com paciente">
+              <h3>Numerosos exames, custos e consultas</h3>
+              <p>Leva, em média, aproximadamente 5 anos para obter o diagnóstico de uma doença rara, com múltiplas visitas a diferentes especialistas.<sup>5</sup></p>
+            </article>
+            <article class="item-desafio">
+              <img src="assets/Rectangle6.png" alt="Médico em consulta com paciente">
+              <h3>Atrasos no diagnóstico</h3>
+              <p>Cerca de 40% dos pacientes receberão mais de um diagnóstico incorreto antes de chegar ao correto.<sup>6</sup></p>
+            </article>
+            <article class="item-desafio">
+              <img src="assets/Rectangle7.png" alt="Profissional de saúde em ambiente clínico">
+              <h3>Doenças raras não diagnosticadas</h3>
+              <p>Mais de 50% das pessoas com suspeita de uma doença rara permanecem sem diagnóstico<sup>7,8</sup>, o que frequentemente aumenta a gravidade e o impacto da doença.</p>
+            </article>
+          </div>
+        </div>
+        <div class="controles-desafios" aria-label="Controles do carrossel de desafios">
+          <button class="botao-carousel-desafios" type="button" data-carousel-prev aria-label="Slide anterior">
+            <span aria-hidden="true">&#10094;</span>
+          </button>
+          <button class="botao-carousel-desafios" type="button" data-carousel-next aria-label="Próximo slide">
+            <span aria-hidden="true">&#10095;</span>
+          </button>
         </div>
       </div>
     </section>
@@ -129,23 +140,33 @@
     <section class="s8 secao-unimos-forcas">
       <div class="conteudo-unimos-forcas">
         <h2 class="titulo-secao titulo-unimos-forcas">Unimos forças para vencer os obstáculos no diagnóstico e tratamento em diferentes frentes.</h2>
-        <div class="grade-unimos-forcas">
-          <article class="item-unimos-forcas">
-            <h3>Neurologia</h3>
-            <p>A investigação de patologias neurológicas raras contribui significativamente para o avanço terapêutico e a melhoria do prognóstico.</p>
-          </article>
-          <article class="item-unimos-forcas">
-            <h3>Nefrologia</h3>
-            <p>Elucidar nefropatias raras é a chave para inovações terapêuticas na medicina renal.</p>
-          </article>
-          <article class="item-unimos-forcas">
-            <h3>Metabólica</h3>
-            <p>Inovações em doenças metabólicas raras podem revolucionar o manejo clínico e o prognóstico dos pacientes.</p>
-          </article>
-          <article class="item-unimos-forcas">
-            <h3>Hematologia</h3>
-            <p>Progressos no diagnóstico de patologias hematológicas raras são fundamentais.</p>
-          </article>
+        <div class="viewport-unimos-forcas">
+          <div class="grade-unimos-forcas">
+            <article class="item-unimos-forcas">
+              <h3>Neurologia</h3>
+              <p>A investigação de patologias neurológicas raras contribui significativamente para o avanço terapêutico e a melhoria do prognóstico.</p>
+            </article>
+            <article class="item-unimos-forcas">
+              <h3>Nefrologia</h3>
+              <p>Elucidar nefropatias raras é a chave para inovações terapêuticas na medicina renal.</p>
+            </article>
+            <article class="item-unimos-forcas">
+              <h3>Metabólica</h3>
+              <p>Inovações em doenças metabólicas raras podem revolucionar o manejo clínico e o prognóstico dos pacientes.</p>
+            </article>
+            <article class="item-unimos-forcas">
+              <h3>Hematologia</h3>
+              <p>Progressos no diagnóstico de patologias hematológicas raras são fundamentais.</p>
+            </article>
+          </div>
+        </div>
+        <div class="controles-unimos-forcas" aria-label="Controles do carrossel de áreas terapêuticas">
+          <button class="botao-carousel-desafios" type="button" data-carousel-prev aria-label="Slide anterior">
+            <span aria-hidden="true">&#10094;</span>
+          </button>
+          <button class="botao-carousel-desafios" type="button" data-carousel-next aria-label="Próximo slide">
+            <span aria-hidden="true">&#10095;</span>
+          </button>
         </div>
       </div>
     </section>

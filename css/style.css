@@ -249,6 +249,10 @@ h6 {
   gap: 12px;
 }
 
+.viewport-desafios {
+  width: 100%;
+}
+
 .item-desafio img {
   display: block;
   width: 100%;
@@ -278,6 +282,17 @@ h6 {
 .item-desafio sup {
   font-size: 0.62em;
   vertical-align: super;
+}
+
+.controles-desafios,
+.controles-unimos-forcas {
+  display: none;
+}
+
+.botao-carousel-desafios {
+  border: 0;
+  background: #d8d8d8;
+  color: #ffffff;
 }
 
 .s6.secao-estrategia {
@@ -395,6 +410,10 @@ h6 {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
+}
+
+.viewport-unimos-forcas {
+  width: 100%;
 }
 
 .item-unimos-forcas {
