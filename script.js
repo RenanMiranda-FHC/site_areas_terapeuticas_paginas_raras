@@ -85,7 +85,11 @@
       }
     };
 
-    mediaQuery.addEventListener("change", sincronizarComViewport);
+    if (typeof mediaQuery.addEventListener === "function") {
+      mediaQuery.addEventListener("change", sincronizarComViewport);
+    } else if (typeof mediaQuery.addListener === "function") {
+      mediaQuery.addListener(sincronizarComViewport);
+    }
     trilha.addEventListener("touchstart", aoIniciarToque, { passive: true });
     trilha.addEventListener("touchend", aoFinalizarToque, { passive: true });
     sincronizarComViewport();
