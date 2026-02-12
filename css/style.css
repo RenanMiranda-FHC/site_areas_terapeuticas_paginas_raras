@@ -3,7 +3,7 @@
   --cor-vinho-titulo: #7a2257;
   --cor-texto-escuro: #434343;
   --cor-fundo-cinza: #efefef;
-  --cor-fundo-card: #f1f1f1;
+  --cor-fundo-card: #F5F4F5;
 }
 
 * {
@@ -358,7 +358,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 0;
-  background: #e3e3e3;
+  background: #F7F7F7;
 }
 
 .item-prioridade {
